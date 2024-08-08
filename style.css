@@ -433,6 +433,57 @@ input::placeholder {
 
 /* BMI calculator section end */
 
+/* Meet Our Team section start */
+.meet-our-team-section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.meet-our-team-section-heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.meet-our-team-section-description {
+    margin-top: 20px;
+}
+
+.meet-our-team-section-cards {
+    width: 70%;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.meet-our-team-section-card>div>img {
+    width: 100%;
+    height: 272px;
+    border-radius: 18px;
+    object-fit: fill;
+    object-position: center;
+}
+
+.meet-our-team-section-card {
+    position: relative;
+}
+
+.meet-our-team-card-details {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+/* Meet Our Team section end */
+
+/*responsive Meet Our Team section end */
+
 /* responsive layout section start*/
 @media screen and (max-width:576px) {
 
@@ -643,4 +694,21 @@ input::placeholder {
         text-align: start;
     }
     /*responsive BMI calculator section end */
+
+    /*responsive Meet Our Team section start */
+    .meet-our-team-section-cards {
+        width: 85%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .meet-our-team-section-heading {
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .meet-our-team-section {
+        width: 100%;
+    }
+
+    /*responsive Meet Our Team section end */
 }
