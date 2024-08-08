@@ -188,6 +188,54 @@
 
 /* Get body banner section end */
 
+
+/* Change your habits section start */
+.change-your-habit-section {
+    color: white;
+}
+
+.change-your-habit-section-header {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.change-your-habit-section-description {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.change-your-habit-card-container {
+
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.change-your-habit-cards {
+    text-align: center;
+}
+
+.change-your-habit-cards>img {
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.change-your-habit-cards-header {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* Change your habits section end */
+
 /* responsive layout section start*/
 @media screen and (max-width:576px) {
 
@@ -275,4 +323,19 @@
 
     /* responsive banner section end*/
 
+    /*responsive change your habits start*/
+    .change-your-habit-section-header {
+        font-size: 22px;
+    }
+
+    .description {
+        width: 90%;
+        font-size: small;
+    }
+
+    .change-your-habit-card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*responsive change your habits end*/
 }
