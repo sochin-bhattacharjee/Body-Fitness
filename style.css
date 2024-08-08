@@ -1,37 +1,59 @@
+/* Inter font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-/* Inter font */
 .inter-font {
     font-family: "Inter", sans-serif;
+}
+
+/* Dancing Script font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&display=swap');
+
+.dancing-script-font {
+    font-family: "Dancing Script", cursive;
+}
+
+* {
+    margin: 0;
+    color: white;
 }
 
 .background-color {
     background-color: black;
 }
+
+.description {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* navigation section style start*/
-#navigation{
+#navigation {
     width: 70%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 #navigation-heading {
-    color:rgba(230, 83, 60, 1);
+    color: rgba(230, 83, 60, 1);
     font-size: 36px;
     font-style: italic;
     font-weight: 800;
 }
-.navigation-btn-text{
+
+.navigation-btn-text {
     display: flex;
     gap: 40px;
     align-items: center;
     border: 1px solid rgb(57, 56, 56);
-    padding: 0px 20px 0px 0px ;
+    padding: 0px 20px 0px 0px;
     border-radius: 20px;
 }
-.navigation-btn{
+
+.navigation-btn {
     color: white;
     background-color: red;
     border: none;
@@ -39,34 +61,129 @@
     border-radius: 20px;
     padding: 5px;
 }
-.navigation-text{
+
+.navigation-text {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
-.navigation-3line-icon{
+
+.navigation-3line-icon {
     color: white;
     display: none;
 }
+
 /* navigation section style end*/
 
-/* responsive layout section start*/
-@media screen and (max-width:576px){
-    #navigation{
-        width: 95%;
-    }
-    .navigation-3line-icon{
-        display: block;
-        border: none;
-    }
-    .navigation-btn{
-        display: none;
-    }
-    .navigation-text{
-        display: none;
-    }
-    .navigation-btn-text{
-        border: none;
-    }
-    
+/* Get body banner section start */
+.banner-section {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
+
+.banner-section-content {
+    width: 50%;
+}
+
+#banner-section-heading {
+    color: white;
+    font-size: 78px;
+}
+
+.banner-section-description {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-section-btn1 {
+    background-color: red;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 15px 45px;
+    border-radius: 25px;
+}
+
+#banner-section-btn2 {
+    border: none;
+    font-size: 18px;
+    color: white;
+    background: none;
+    border: 1px solid rgb(116, 114, 114);
+    padding: 15px 45px;
+    border-radius: 25px;
+}
+
+.banner-section-img-content {
+    position: relative;
+    width: 50%;
+    object-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+#banner-section-img {
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.banner-section-sticker1-button {
+    background-color: red;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 60px;
+}
+
+#banner-section-sticker1 {
+    width: 200px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 8px;
+    border-radius: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+#banner-section-sticker2 {
+    width: 190px;
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    border-radius: 13px;
+    position: absolute;
+    top: 16%;
+    right: 0%;
+    padding: 2px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+#banner-section-sticker1-head {
+    color: white;
+    font-size: 24px;
+}
+
+.banner-section-sticker2-head {
+    color: white;
+    font-size: 40px;
+}
+
+/* Get body banner section end */
