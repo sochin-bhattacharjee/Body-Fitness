@@ -272,6 +272,71 @@
 
 /* Run an extra mile section end */
 
+
+/* Trainings and Exercises Section start  */
+.trainings-and-exercise-section {
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.trainings-and-exercise-section-heading {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.trainings-and-exercise-section-content1 {
+    background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%), url('./images/exercise1.jpg');
+}
+
+.trainings-and-exercise-section-content2 {
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.30) 0%, rgba(255, 0, 0, 0.30) 100%), url('./images/exercise2.png');
+}
+
+.trainings-and-exercise-section-content3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('./images/exercise3.png');
+}
+
+.trainings-and-exercise-section-content4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('./images/exercise4.png');
+}
+
+.trainings-and-exercise-section-content5 {
+    background: linear-gradient(0deg, rgba(66, 255, 0, 0.30) 0%, rgba(66, 255, 0, 0.30) 100%), url('./images/exercise5.jpg');
+}
+
+.trainings-and-exercise-section-content6 {
+    background: linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%), url('./images/exercise6.jpg');
+}
+
+.trainings-and-exercise-section-gridup {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr 6fr 3fr);
+    margin-top: 20px;
+}
+
+.trainings-and-exercise-section-griddown {
+    display: grid;
+    grid-template-columns: repeat(1, 4.5fr 3.5fr 4fr);
+}
+
+.trainings-and-exercise-content-position {
+    background-size: cover;
+    background-position: center;
+    height: 272px;
+    position: relative;
+}
+
+.trainings-and-exercise-content-description {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+/* Trainings and Exercises Section end*/
+
 /* responsive layout section start*/
 @media screen and (max-width:576px) {
 
@@ -394,4 +459,35 @@
     }
 
     /*responsive Run an extra mile section end */
+
+    /*responsive Trainings And Exercise Section start */
+    .trainings-and-exercise-section {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    .trainings-and-exercise-section-heading {
+        font-size: 32px;
+    }
+
+    .trainings-and-exercise-section-content3,
+    .trainings-and-exercise-section-content6 {
+        display: none;
+    }
+
+    .trainings-and-exercise-content-position {
+        height: 130px;
+    }
+
+    .trainings-and-exercise-section-gridup {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .trainings-and-exercise-section-griddown {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*responsive Trainings And Exercise Section end */
 }
