@@ -337,6 +337,102 @@
 
 /* Trainings and Exercises Section end*/
 
+
+/* BMI calculator section start */
+.bmi-calculator-section {
+    width: 100%;
+}
+
+#bmi-calculator-section-heading {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+.bmi-calculator-section-description {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bmi-calculator-section-content {
+    width: 100%;
+    background: #222;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bmi-calculator-section-table {
+    width: 50%;
+}
+
+.bmi-calculator-section-input {
+    width: 50%;
+}
+
+caption {
+    font-size: 27px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    padding: 15px 25px;
+    text-align: start;
+}
+
+td {
+    color: rgb(124, 121, 121)
+}
+
+.bmi-calculator-section-input-content {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.bmi-calculator-section-input-heading {
+    font-size: 27px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.bmi-calculator-section-input-description {
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+input,
+select {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input::placeholder {
+    color: rgb(218, 213, 213);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* BMI calculator section end */
+
 /* responsive layout section start*/
 @media screen and (max-width:576px) {
 
@@ -490,4 +586,61 @@
     }
 
     /*responsive Trainings And Exercise Section end */
+
+    /*responsive BMI calculator section start */
+    .bmi-calculator-section-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #bmi-calculator-section-heading {
+        font-size: 30px;
+        text-align: start;
+        padding: 10px 20px;
+    }
+
+    .bmi-calculator-section-description {
+        width: 80%;
+        text-align: start;
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+
+    .bmi-calculator-section-input-content {
+        width: 100%;
+    }
+
+    .bmi-calculator-section-input-heading {
+        font-size: 20px;
+    }
+
+    .bmi-calculator-section-table {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .bmi-calculator-input-section {
+        padding: 20px;
+    }
+
+    td,
+    th {
+        padding: 10px 20px;
+    }
+
+    .bmi-calculator-section-input-content>input,
+    select {
+        padding: 15px 5px;
+        font-size: 10px;
+    }
+
+    input::placeholder {
+        font-size: 10px;
+    }
+
+    caption {
+        font-size: 20px;
+        text-align: start;
+    }
+    /*responsive BMI calculator section end */
 }
