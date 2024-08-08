@@ -187,3 +187,90 @@
 }
 
 /* Get body banner section end */
+
+/* responsive layout section start*/
+@media screen and (max-width:576px) {
+
+    /* responsive navigation section start */
+    #navigation {
+        width: 95%;
+    }
+
+    .navigation-3line-icon {
+        display: block;
+        border: none;
+    }
+
+    .navigation-btn {
+        display: none;
+    }
+
+    .navigation-text {
+        display: none;
+    }
+
+    .navigation-btn-text {
+        border: none;
+    }
+
+    /* responsive navigation section end */
+
+    /* responsive banner section start*/
+    .banner-section {
+        width: 95%;
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-section-btn1 {
+        padding: 11px 15px;
+    }
+
+    #banner-section-btn2 {
+        padding: 11px 15px;
+    }
+
+    #banner-section-sticker1 {
+        width: 40%;
+        top: 45%;
+        left: 0%;
+    }
+
+    #banner-section-sticker1-head {
+        font-size: 15px;
+    }
+
+    .banner-section-description {
+        font-size: 10px;
+    }
+
+    #banner-section-sticker2 {
+        width: 40%;
+        top: 10%;
+        right: 0%;
+    }
+
+    .banner-section-sticker2-head {
+        font-size: 30px;
+    }
+
+    #banner-section-heading {
+        font-size: 50px;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .banner-section-content {
+        width: 100%;
+    }
+
+    .banner-section-img-content {
+        width: 100%;
+    }
+
+    .banner-section-content {
+        width: 100%;
+    }
+
+    /* responsive banner section end*/
