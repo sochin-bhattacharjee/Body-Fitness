@@ -44,6 +44,10 @@
     font-weight: 800;
 }
 
+#navigation-heading:hover{
+    cursor: pointer;
+}
+
 .navigation-btn-text {
     display: flex;
     gap: 40px;
@@ -62,10 +66,18 @@
     padding: 5px;
 }
 
+.navigation-btn:hover{
+    cursor: pointer;
+}
+
 .navigation-text {
     color: white;
     text-decoration: none;
     font-size: 18px;
+}
+.navigation-text:hover{
+    color: rgb(0, 132, 255);
+    text-decoration: underline;
 }
 
 .navigation-3line-icon {
@@ -111,6 +123,10 @@
     border-radius: 25px;
 }
 
+.banner-section-btn1:hover{
+    cursor: pointer;
+}
+
 #banner-section-btn2 {
     border: none;
     font-size: 18px;
@@ -119,6 +135,10 @@
     border: 1px solid rgb(116, 114, 114);
     padding: 15px 45px;
     border-radius: 25px;
+}
+
+#banner-section-btn2:hover{
+    cursor: pointer;
 }
 
 .banner-section-img-content {
@@ -333,8 +353,8 @@
 
 .trainings-and-exercise-content-description {
     position: absolute;
-    bottom: 20px;
-    left: 10px;
+    bottom: 10%;
+    left: 5%;
 }
 
 /* Trainings and Exercises Section end*/
@@ -542,6 +562,10 @@ input::placeholder {
     border-radius: 0 8px 8px 0;
     padding: 10px;
 }
+
+.newsletter-section-button:hover{
+    cursor: pointer;
+}
 /* newsletter section end */
 
 /* footer section start */
@@ -641,8 +665,8 @@ a {
     }
 
     #banner-section-sticker1 {
-        width: 40%;
-        top: 45%;
+        width: 35%;
+        top: 50%;
         left: 0%;
     }
 
@@ -655,8 +679,8 @@ a {
     }
 
     #banner-section-sticker2 {
-        width: 40%;
-        top: 10%;
+        width: 35%;
+        top: 15%;
         right: 0%;
     }
 
@@ -747,6 +771,10 @@ a {
     .trainings-and-exercise-section-griddown {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .trainings-and-exercise-content-description{
+        font-size: 10px;
     }
 
     /*responsive Trainings And Exercise Section end */
